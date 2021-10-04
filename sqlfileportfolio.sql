@@ -1,4 +1,4 @@
--- a total analysis final 
+-- a total analysis final using joins
 select  A.LOCATION, A.POPULATION, A.total_cases, a.total_deaths, round(((B.total_vaccination_per_hundred/100)*a.population),2) as total_vaccine_given,
 B.total_vaccination_per_hundred, round((A.total_cases/A.POPULATION)*100,2) percent_of_cases_per_population,
 round((a.total_deaths/A.total_cases)*100,2) as percent_death_per_cases
