@@ -6,7 +6,7 @@ round((a.total_deaths/A.total_cases)*100,2) as percent_death_per_cases
 from (select location, population, Max(total_cases) as total_cases, Max(total_deaths) as total_deaths
 from covid_deaths
 group by location, population) A
-join
+full join
 (Select entity, max(TOTAL_VACCINATIONS_PER_HUNDRED) as total_vaccination_per_hundred
 from NATION_COVID_VACCINATION
 group by entity) B
@@ -24,7 +24,7 @@ from (select location, population, Max(total_cases) as total_cases, Max(total_de
 from covid_deaths
 where continent is null
 group by location, population) A
-join
+full join
 (Select entity, max(TOTAL_VACCINATIONS_PER_HUNDRED) as total_vaccination_per_hundred
 from NATION_COVID_VACCINATION
 group by entity) B
@@ -42,7 +42,7 @@ from (select location, population, Max(total_cases) as total_cases, Max(total_de
 from covid_deaths
 where continent is not null
 group by location, population) A
-join
+full join
 (Select entity, max(TOTAL_VACCINATIONS_PER_HUNDRED) as total_vaccination_per_hundred
 from NATION_COVID_VACCINATION
 group by entity) B
