@@ -1,4 +1,4 @@
-# SQL Portfolio Project - COVID-19 Analysis and Reports
+# SQL and Tableau Visualization Portfolio Project - COVID-19 Analysis and Reports
 
 In this project, we will see how the COVID-19 infection affected the world's population and the vaccicnation done throughout the world.
 
