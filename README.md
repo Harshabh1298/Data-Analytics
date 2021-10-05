@@ -13,4 +13,4 @@ These tables can be used to get different results.
 
 ### Step 3 
 Use the desired results, for visualization in Tableau, Power BI or tool of your choice.
-Following link redirects you to the visualization:https://public.tableau.com/app/profile/harshabh.gupta/viz/COVID-19AnalysisTillOct22021/Dashboard1
+Following link redirects you to the visualization:https://public.tableau.com/app/profile/harshabh.gupta/viz/COVID-19Analysis_16334503828810/Sheet3
