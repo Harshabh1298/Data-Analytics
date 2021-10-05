@@ -8,9 +8,9 @@ I used the Oracle APEX for my queries.
 
 ### Step 2 
 After importing the files in the data base. Use the code given in the repository to query and get different tables.
-Use of JOIN, GROUP BY and AGGRIGATION FUNCTIONS statement has been presented in these queries
+Use of JOIN, GROUP BY and AGGRIGATION FUNCTIONS statement has been presented in these queries.
 These tables can be used to get different results. 
 
 ### Step 3 
 Use the desired results, for visualization in Tableau, Power BI or tool of your choice.
-Following link represents the visualization: https://public.tableau.com/app/profile/harshabh.gupta/viz/COVID-19AnalysisTillOct22021/Dashboard1
+Following link redirects you to the visualization: here[link,'https://public.tableau.com/app/profile/harshabh.gupta/viz/COVID-19AnalysisTillOct22021/Dashboard1']
