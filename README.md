@@ -12,4 +12,5 @@ Use of JOIN, GROUP BY and AGGRIGATION FUNCTIONS statement has been presented in 
 These tables can be used to get different results. 
 
 ### Step 3 
-Use the desired results, for visualization in Tableau, Power BI or too of your choice. 
+Use the desired results, for visualization in Tableau, Power BI or too of your choice.
+Following link represents the visualization: https://public.tableau.com/app/profile/harshabh.gupta/viz/COVID-19AnalysisTillOct22021/Dashboard1
